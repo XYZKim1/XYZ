@@ -40,9 +40,9 @@ header {
 }
 
 .h_container {
-    width: 70%;
-    min-width: 1195px;
-    height: 100px;
+
+
+
     margin: 0 auto;
 }
 
@@ -83,9 +83,8 @@ div {
 
 header .h_container {
     height: 100px;
-    width: 70%;
+    width: 80%;
     min-width: auto;
-    max-width: 1600px;
     position: relative;
 }
 
@@ -280,21 +279,15 @@ img {
     width: 90px;
     height: 80px;
 
-    font-size: 26px;
-
-
-
+    font-size: 18px;
 
 
     z-index: -99;
 }
 
 .back_btn a {
+    color: #262627;
     line-height: 80px;
-
-
-
-
 }
 
 .back_btn a:visited {
@@ -310,25 +303,7 @@ img {
 
 
 
-.back_logo {
-    width: 100%;
-    height: 100%;
-}
 
-.back_btn {
-    display: none;
-}
-
-
-
-.main_logo:hover .back_logo {
-    display: none;
-}
-
-.main_logo:hover .back_btn {
-    display: block;
-
-}
 
 
 
@@ -381,7 +356,7 @@ img {
 
 
 .nav_1 {
-    color: #999eee;
+    color: #5f5f5f;
 }
 
 .nav_2 {
@@ -396,7 +371,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
 
-
+    padding-bottom: 4px;
 
 
 }

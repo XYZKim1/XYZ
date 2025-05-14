@@ -44,12 +44,6 @@ header {
   position: relative;
 }
 
-.h_container {
-
-  min-width: 1195px;
-  height: 100px;
-
-}
 
 .main_logo {
   width: 90px;
@@ -72,11 +66,13 @@ header {
 }
 
 header .h_container {
-
+  height: 100px;
+  width: 80%;
   min-width: auto;
-  max-width: 70%;
   position: relative;
   margin: 0 auto;
+
+
 }
 
 header .h_container .main_logo {
@@ -137,11 +133,6 @@ header .h_container .nav_wrap .nav_left ul li:first-child {
 
 }
 
-header .h_container .nav_wrap .nav_left ul li:last-child {
-  height: 10px;
-  width: fit-content;
-  animation: blink 4.5s linear infinite;
-}
 
 /*
 @keyframes blink {
@@ -217,7 +208,7 @@ header .h_container .nav_wrap .nav_right ul li:after {
 header .h_container .nav_wrap .nav_right ul li a {
   display: block;
   color: #888;
-  font-size: 15 px;
+  font-size: 14px;
   line-height: 80px;
 
 }

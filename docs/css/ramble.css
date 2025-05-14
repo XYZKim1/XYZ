@@ -32,15 +32,10 @@ a[href^="tel"] {
 
 
 /* layout */
-header {
-    width: 100%;
-    height: 80px;
-    position: relative;
-}
 
 .h_container {
-    width: 70%;
-    min-width: 1195px;
+
+
     height: 100px;
     margin: 0 auto;
 }
@@ -70,14 +65,14 @@ header {
 
 /*--*/
 header {
-    height: 100px;
+    width: 100%;
+    position: relative;
 }
 
 header .h_container {
     height: 100px;
-    width: 70%;
+    width: 80%;
     min-width: auto;
-    max-width: 1600px;
     position: relative;
 }
 
@@ -325,7 +320,7 @@ img {
     width: 90px;
     height: 80px;
 
-    font-size: 26px;
+    font-size: 18px;
     z-index: -99;
 }
 
@@ -334,7 +329,7 @@ img {
     line-height: 80px;
 
 
-
+    color: #5f5f5f;
 
 }
 
@@ -358,9 +353,6 @@ img {
     height: 100%;
 }
 
-.back_btn {
-    display: none;
-}
 
 
 
@@ -423,7 +415,7 @@ img {
 
 
 .nav_1 {
-    color: #999eee;
+    color: #5f5f5f;
 }
 
 .nav_2 {
@@ -438,7 +430,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
 
-
+    padding-bottom: 4px;
 
 
 }
