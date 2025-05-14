@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>와이어플로우 크게보기</title>
+
+    <link rel="shortcut icon" type="images/x-icon" href="image/common/cc_common_favicon.ico">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/wire_flow.css">
+
+
+
+    <link rel="stylesheet" href="./js/copy_prohibitted.js">
+
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>\
+
+
+
+    <script type="text/javascript">/*back_btn*/
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 800) {
+                    $('.go_main_btn').fadeIn();
+                } else {
+                    $('.go_main_btn').fadeOut();
+                }
+            });
+
+
+        });
+    </script>
+
+    <script type="text/javascript">/*top btn*/
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.top').fadeIn();
+                } else {
+                    $('.top').fadeOut();
+                }
+            });
+
+
+            $('.top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 400);
+                return false;
+            });
+        });
+    </script>
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+
+
+</head>
+
+
+
+<body>
+
+
+
+    <main>
+        <div class="wire_flow_box"> <img src="/image/main/wire_flow.png"></div>
+
+
+
+
+
+        <div class="go_main_btn">
+            <div class="go_main_btn_container">
+                <a href="index.html" class="main_btn_position">
+
+
+
+                    <p class="go_main_btn_text_1 ">
+                        👈 메인 화면으로 👈
+                    </p>
+
+
+
+
+                </a>
+            </div>
+
+
+
+            <!--section4_contatiner"-->
+
+
+
+
+
+
+
+
+
+
+
+            <a href="#" class="top"></a>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

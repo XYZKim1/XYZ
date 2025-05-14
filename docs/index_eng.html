@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>똑구 웹페이지</title>
+
+    <link rel="shortcut icon" type="images/x-icon" href="image/common/cc_common_favicon.ico" />
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main_eng.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <link rel="stylesheet" href="js/copy_prohibitted.js" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+    <script type="text/javascript">
+
+        jQuery(document).ready(function () {
+            $('#myModal').show();
+        });
+        //팝업 Close 기능
+        function close_pop(flag) {
+            $('#myModal').hide();
+        };
+
+    </script>
+
+
+
+    <script>/*top btn*/
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.top').fadeIn();
+                } else {
+                    $('.top').fadeOut();
+                }
+            });
+            $('.top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 400);
+                return false;
+            });
+        });
+    </script>
+
+</head>
+
+
+
+<body>
+    <header>
+
+
+
+
+
+        <div class="h_container">
+            <div class="main_logo">
+                <a href="index.html" title="main pager"><img src="image/common/main_logo.svg" alt="logo" /></a>
+            </div>
+            <!--main_logo-->
+
+            <div class="nav_wrap">
+                <nav class="nav_left">
+                    <ul>
+                        <li><a href="ux.html" target="_blank" title="앱  자세히보기 바로가기" class="mainnav">UX</a>
+                        </li>
+                        <li><a href="ui.html" target="_blank" title="디자인 자세히보기 바로가기" class="mainnav">UI</a>
+                        </li>
+
+                        <li><a href="sitemap_index2.html" title="포트폴리오 사이트맵 바로가기" class="mainnav">Site map</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav_right">
+                    <ul>
+                        <li><a href="index.html" title="한국어로 보기" class="langko">KO</a>
+                        </li>
+                        <li><a href="index_eng.html" title="English language" class="language">ENG</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--h_container-->
+    </header>
+
+
+
+
+    <main>
+
+
+        <div class="top_border_container">
+
+            <div class="top_border_text">To not let any items go into waste!</div>
+        </div>
+        <!--top_border_container"-->
+
+        <div class="section--index">
+
+
+            <div class="ptop">
+                <h1> Location based <br> Group ordering Service</h1>
+            </div>
+
+
+
+            <!--버튼 ㅠㅠ -->
+            <div class="btn_container">
+                <a class="left_btn" href="#" title="Thank you fot visiting my page!  "><img src="image/main/ad.png"
+                        height="20px" width="20px" alt="Google play icon">Google play</a>
+                <a class="right_btn" href="#" title="가주아~!~! "><img src="image/main/ap.png" height="20px" width="20px"
+                        alt="App store icon">App store</a>
+            </div>
+
+            <!--3이미지-->
+            <div class="section1_img">
+                <img src="image/main/shopping_w.png" alt="shopping women">
+            </div>
+
+        </div>
+
+        <div class="section section2 ">
+
+            <div class="section2_content">
+
+                <div class="section2_img">
+                    <img src="image/main/mockup.png" alt="iphine mockup ">
+                </div>
+
+                <div class="section2_textbox">
+
+                    <p>Where division becomes addition , <br>Be part of our journey. <br>
+                        <span class="hashtag">
+                            <p>Save Money, Half the waste!</p>
+                        </span>
+                    </p>
+                </div>
+                <!--section2_textbox-->
+
+                <div class="spin_img"><img src="/image/main/spin.png" alt=""> </div>
+            </div>
+
+
+        </div>
+        <!--section2-->
+
+        <div class="bg1">
+
+            <div class="section section3">
+                <div class="content">
+                    <div class="bar"><img src="/image/main/bar.png"></div>
+                    <div class="linkContainer">
+
+                        <div class="links">
+
+
+
+                            <a href="#" target="_blank">똑구 Our Service <br> on behance</a>
+                            <a href="#" target="_blank">Open wireflow<br> in a new tap </a>
+                            <a href="#" target="_blank">똑구 인스타그램 <br> on instagram</a>
+                        </div>
+                    </div>
+                    <div class="bar"><img src="/image/main/bar.png"></div>
+                </div>
+
+            </div>
+
+
+            <div class="section">
+                <div class="content">
+                    <div class="section3_text">
+                        <p>Benefits of Group Ordering</p>
+                    </div>
+                    <div class="section3_text2">
+                        <p>똑구를 사용하면 이런점이 좋아요</p>
+                    </div>
+                    <div class="kv">
+
+                        <div class="item">
+                            <div class="image">
+                                <img src="/image/main/img_1.png" alt="">
+                            </div>
+                            <div class="emoticon">
+                                <img src="/image/main/a.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="title">Save delivery fee</p>
+                                <p class="desc">Divide the shipping fee with the neighbor
+                                    <br />
+                                    by half to 1/n or Free!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="/image/main/img_2.png" alt="">
+                            </div>
+                            <div class="emoticon">
+                                <img src="/image/main/b.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="title">Make local friends</p>
+                                <p class="desc">You can make local friends
+                                    <br />
+                                    who has similar tastes easily.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="image">
+                                <img src="/image/main/img_3.png" alt="">
+                            </div>
+                            <div class="emoticon">
+                                <img src="/image/main/c.png" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="title">To cut the waste in half</p>
+                                <p class="desc">The more you use it,<br />
+                                    the less packaging waste. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section">
+                <div class="section4-container">
+
+                    <div class="section4-contents">
+                        <div class="section4_img"><img src="/image/main/bird.png" alt=""></div>
+                        <a class="section4-text" href="#;">The Easiest Way to Save the Earth,</a> <br>
+                        <a class="section4-text" href="#;">The Easiest Way to Save Money,</a><br>
+                        <a class="section4-text" href="#;">And We do this better together.</a>
+                    </div>
+                </div>
+                <!--section4_contatiner"-->
+
+
+            </div>
+        </div>
+        <!--bg--->
+    </main>
+
+
+
+
+
+    <footer>
+
+
+
+        <div class="foot_container">
+
+            <div class="foot_con1">
+                <div class="text_box1">
+                    <a class="f_l_logo" href="#">
+                        <img src="/image/common/main_logo.svg" alt="">
+                    </a>
+
+                    <ul class="innerlink0" class="innerlink_hover">
+                        <li> <a href="https://www.behance.net/XYZisLearning" target="_blank"> XYZ on behance</a>
+                        </li>
+                        <li> <a href="https://xyzdesign.xyz/" target="_blank"> Web Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="foot_con2">
+
+
+
+                <div class="text_box2">
+
+                    <ul class="innerlink1">
+                        <li> TokGu</li>
+                        <li> Project owner: Hyeseo kim </li>
+                    </ul>
+
+                    <ul class="innerlink2">
+                        <li> Mobile: +82 10 2748 4488</li>
+                        <li> <a href="mailto:" XYZislearning@gmail.com class=" email"> E-mail:
+                                XYZislearning@gmail.com</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="top_border_container_2"></div>
+
+
+
+
+
+
+    </footer>
+
+
+    <a href="#" class="top"></a>
+    <!-- The Modal -->
+    <!--레이어 팝업 배경- >
+        <div id="myModal" class="modal">
+ 
+        <!-- Modal content -->
+    <!--- 레이어 팝업
+         > <div class="modal-content" >
+                <p style="text-align: center;">
+                    <span ><b><span style="font-size: 16pt; font-weight: bold;letter-spacing: -0.08em;">💛알립니다💛</span></b></span>
+                </p>
+                <p style="text-align: center; line-height: 1.5; font-size: 14px;letter-spacing: -0.06em;" ><br /> 안녕하세요 XYZ 입니다. <br><br>  1. 이 페이지는 포트폴리오 목적으로 제작되었으며<br> 우측 상단의 APP 버튼을 누르시면 
+                    <br> 저의 Behance 페이지로 이동합니다!😁<br> <br>2. HTML과 CSS는 직접 작성하였습니다.<br>(링크 작동) <br > <br>3. 중간에 위치한 똑구 인스타그램 버튼을 누르시면 <br>온라인 마케팅 에셋도 보실 수 있어요! <br> <br> 제 페이지에 방문해주신 모두 <br> 오늘하루 제~~~일 행복한 사람이 되시길..💕 </p>
+                <p><br /></p>
+              
+              
+              
+                <div style="cursor:pointer;background-color:#999fff;text-align: center;padding-bottom: 10px;padding-top: 10px; border-radius: 10px;" onClick="close_pop();">
+                  <span class="pop_bt" style="font-size: 10pt; color:white;">
+                       닫기
+                  </span>
+              </div>
+        </div>
+   
+      </div>
+          <!--End Modal-->
+
+
+</body>
+
+</html>

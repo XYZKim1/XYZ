@@ -1,0 +1,293 @@
+header {
+    height: 80px;
+    .h_container {
+        height: inherit;
+        width: 100%;
+        min-width: auto;;
+        max-width: 1920px;
+        position: relative;
+        .main_logo {
+            display:block;
+            padding: 0;
+            margin: 0;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            a {
+                display: block;
+                img {
+                    vertical-align: top;;
+                }
+            }
+        }
+        .nav_wrap {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;;
+            &:after {
+                display: block;
+                content: '';
+                clear:both;
+            }
+            &>div, &>nav {
+                float: left;
+            }
+            right: 20px;
+            ul {
+                &:after {
+                    display: block;
+                    content: '';
+                    clear:both;
+                }
+                li {
+                    float: left
+                }
+            }
+
+            .nav_left {
+                ul {
+                    li {
+                        margin-left: 30px;
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                        a {
+                            font-size: 20px;
+                            color: #191919;
+                            display: block;
+                            line-height: 80px;
+                        }
+                    }
+                }
+            }
+            .nav_right {
+                margin-left: 30px;
+                position: relative;
+       
+                ul {
+                    li {
+                        margin-left: 10px;
+                        padding-left: 10px;
+                        position: relative;
+
+                        &:first-child {
+                            margin-left: 0;
+                            padding-left: 0;
+                            &:after {display: none;}
+                        }
+                        &:after {
+                            content: '';
+                            display: block;
+                            width: 1px;
+                            height: 14px;
+                            background: #888;
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            left: 0;
+                        }
+                        a {
+                            display: block;
+                            color: #888;
+                            font-size: 13px;
+                            line-height: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    .top_border_container {
+        background: url(/image/common/top_border.png) center 0 no-repeat;
+    }
+}
+
+.section {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+
+    .content {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+
+.linkContainer {
+    padding: 100px 0 200px;
+    .links {
+        text-align: center;
+        position: relative;
+        a {
+            vertical-align: top;
+            &:first-child {
+                position: absolute;
+                left: 0;
+            }
+    
+            &:last-child {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}
+
+.kv {
+
+    position: relative;
+    .item {
+
+        margin: 0 auto;
+        &:first-child {
+            position: absolute;
+            left: 0;
+            
+        }   
+        &:last-child {
+            position: absolute;
+            right: 0;
+            top: 0;;
+        }
+        width: 438px;
+        .image {
+            height: 433px;
+            margin-bottom: 35px;
+            text-align: center;
+            position: relative;
+
+            img {
+            
+                display:block;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .emoticon {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .text {
+            text-align: center;
+            p {
+                text-align: center;
+                &.title {
+                    font-size: 18px;
+                }
+                &.desc {
+                    margin-top: 20px;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+.foot {
+    width: 100%; /*div 는 원래 블록임 */
+}
+
+.foot_contents {    position: relative;
+    padding-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;  
+    width: 1200px ;
+    height: inherit;
+    background-color: rgb(120, 87, 87);
+}
+
+.f_l_logo {
+
+    position: absolute;
+    left: 20px;
+    width: 108px;       
+    height: 40px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+.foot_contents .company {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.foot_contents .info {
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+ .innerLink {
+    overflow: auto;
+    padding-right: 20%;
+    margin-top:1px;
+}
+
+.innerLink li {
+    margin-bottom: 15px;
+    float: left;
+    width: 260px;
+}
+
+.innerLink li a:hover {
+    text-decoration: underline;;
+}
+
+.section--index {
+    background: url(/image/main/w_bg.png) center center no-repeat;
+}
+
+
+.section4{ 
+    width: 100%;
+    max-width: 1920px;
+   
+    margin: 0 auto;
+    padding-top:100px;
+    position: relative;
+    text-align: center;
+   
+
+ 
+    
+}
+
+.section4-contents {
+   
+    max-width: 1200px;
+    margin: 0 auto;  height:800px;
+    padding-top: 300px ;
+    position: relative;
+    background:url(/image/main/sec2img.png) center center no-repeat;
+   
+  
+}
+
+.section4-text {
+
+    font-weight:900;
+    margin:0 auto;
+    font-size: 55px;
+    line-height: 70px;
+
+
+}

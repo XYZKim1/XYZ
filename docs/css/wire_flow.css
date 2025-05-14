@@ -1,0 +1,101 @@
+ body {
+     font-family: 'Noto Sans KR', sans-serif;
+     width: 100%;
+     height: auto
+ }
+
+
+
+
+
+
+
+
+
+
+ /*뒤로가기 버튼*/
+
+
+ .go_main_btn_container {
+     text-align: center;
+
+     width: 100%;
+     height: 75px;
+
+     position: fixed;
+     bottom: 0px;
+     left: 0;
+
+
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     transition: all 1s;
+     background-color: transparent;
+     backdrop-filter: blur(10px);
+ }
+
+
+ /*알아서 늘어나는 이미지*/
+ img {
+
+     height: auto;
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+     margin: 0 auto;
+
+     object-fit: contain;
+ }
+
+ .go_main_btn_container a {
+     text-decoration: none;
+ }
+
+ .go_main_btn_position {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+ }
+
+ .go_main_btn_text_1 {
+
+     letter-spacing: -1.2px;
+     font-size: 20px;
+     font-weight: 600;
+     color: #2E2E2E;
+     line-height: 74px;
+
+
+ }
+
+
+
+ /*위로*/
+ a.top {
+     z-index: 999;
+     background-image: url(/image/common/xyzicon.png);
+     position: fixed;
+
+     width: 90px;
+     height: 90px;
+
+     right: 8%;
+
+     bottom: 10%;
+     display: none;
+
+
+
+ }
+
+ a.top .img {
+     max-width: 100%;
+     max-height: 100%;
+ }
+
+
+ a.top:hover {
+     background-image: url(/image/common/top_btn_w.png);
+     display: none;
+ }

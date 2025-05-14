@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/m_slider.css" />
+    <link rel="stylesheet" href="css/m_main.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+            height: auto;
+
+        }
+
+        body {
+            background-color: #fff;
+
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            margin-top: 20px;
+            width: 336px;
+            height: 196px;
+            box-shadow: 10px 10px 34px 0px rgba(218, 218, 218, 0.664);
+
+            margin-bottom: 140px;
+
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+    <!-- Swiper -->
+
+    <div class="top_border_container">
+
+    </div>
+    <!--top_border_container"-->
+
+    <div class="section--index">
+
+
+        <div class="ptop">
+            <h1> 위치기반 <br> 같이주문 서비스</h1>
+        </div>
+        <div class="top_border_text">처음부터 버려지는 물건이 없도록 </div>
+
+
+
+
+
+        <!--3이미지-->
+        <div class="section1_img">
+            <img class="pic" src="image/main/shopping_w.png" alt="쇼핑하는 여성 이미지">
+        </div>
+
+        <h3>똑구에서 이웃과 함께 <br>
+            절약과 하프웨이스트를 실천하세요! <br>
+        </h3>
+
+
+        <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!--버튼 ㅠㅠ -->
+        <div class="btn_container">
+            <a class="left_btn" href="#" title="화이팅"><img src="image/main/ad.png" height="20px" width="20px"
+                    alt="구글 플레이 이미지">Google play</a>
+            <a class="right_btn" href="#" title="가주아~!~! "><img src="image/main/ap.png" height="20px" width="20px"
+                    alt="앱스토어 이미지">App store</a>
+        </div>
+    </div>
+
+    <!--화살표 -->
+
+
+
+
+
+    <div class="section section2 ">
+
+        <div class="section2_content">
+            <div class="spin_wrapper">
+                <div class="spin_img"><img src="image/main/spin.png" alt=""> </div>
+            </div>
+            <div class="section2_img">
+                <img src="image/mobile/m_mockup.png" alt="아이폰 목업 " data-aos="fade-up"
+                    data-aos-anchor-placement="spin_img" data-aos-duration="2000">
+            </div>
+
+
+
+
+
+            <!--section2_textbox-->
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="cons">
+        <h3>똑구를 사용하면</h3>
+        <ul>
+            <li> <img src="image/mobile/a.png" alt=""></li>
+            <li> <img src="image/mobile/b.png" alt=""></li>
+            <li> <img src="image/mobile/c.png" alt=""></li>
+        </ul>
+    </div>
+
+
+
+
+
+    <div class="section4-container">
+
+        <div class="section4-contents">
+            <video autoplay loop muted class="main_vid">
+                <source src="/image/vid/1920_1650_2.mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/mobile/a.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/mobile/b.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/mobile/c.png" alt=""></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <a href="#" class="top"><img class="top_img" src="/image/common/top_btn_w.png"></a>
+
+
+    <div class="go_ux_btn">
+        <div class="go_ux_btn_container ">
+            <a href=" ux.html" class="go_ux_btn_position">
+
+
+
+                <p class="go_ux_btn_text_1 ">
+                    👉 1.다음 똑구UIUX페이지 보러가기 👉
+                </p>
+
+
+                <p class="go_ux_btn_text_2">
+                    페이지를 끝까지 내리시면 버튼이 나타나요!
+                </p>
+
+
+
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <!--반응형 로드-->>
+    <script>
+        $(function () {
+            if ($(window).width() <= 768) {
+                $('#content').load('slider.html');
+            } else {
+                $('#content').load('index.html');
+            }
+        });
+    </script>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+
+    <script type="text/javascript">/*go_ux_btn*/
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 700) {
+                    $('.go_ux_btn').fadeIn();
+                } else {
+                    $('.go_ux_btn').fadeOut();
+                }
+            });
+
+
+        });
+    </script>
+
+
+
+    <script type="text/javascript">/*top btn*/
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 10) {
+                    $('.top').fadeIn();
+                } else {
+                    $('.top').fadeOut();
+                }
+            });
+            $('.top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 10
+                );
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

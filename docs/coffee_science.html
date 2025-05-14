@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramble</title>
+
+    <link rel="shortcut icon" type="images/x-icon" href="image/ramble/ramble_favicon.ico" />
+
+
+    <link rel="stylesheet" href="css/ramble.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+
+
+    <!--<link rel="stylesheet" href="js/copy_prohibitted.js" />-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+
+
+
+    <script>/*top btn*/
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.top').fadeIn();
+                } else {
+                    $('.top').fadeOut();
+                }
+            });
+            $('.top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 400);
+                return false;
+            });
+        });
+
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 1500) {
+                    $('.go_ux_btn').fadeIn();
+                } else {
+                    $('.go_ux_btn').fadeOut();
+                }
+            });
+
+
+        });
+    </script>
+
+
+</head>
+
+
+
+<body>
+    <header>
+
+
+
+        <div class="h_container">
+            <div class="main_logo">
+                <ul>
+                    <li class="back_logo"><a href="index.html" title="2.아리랑 페이지로 돌아가기"><img
+                                src="image/ramble/ramble_logo.svg" alt="coffee science 로고" /></a></li>
+                    <li class="back_btn"><a href="index.html" title="2.아리랑 페이지로 돌아가기">Home</a></li>
+                </ul>
+            </div>
+            <!--main_logo-->
+
+            <div class="nav_wrap">
+                <nav class="nav_left">
+                    <ul>
+                        <li><a class="nav_2" href="ux.html" title="앱 자세히보기 바로가기">DDokgu</a>
+                        </li>
+
+
+                        <li><a href="Arirang.html" title="아리랑 바로가기" class="nav_2">Arirang</a>
+                        <li><a href="Coffee science.html" title="커피 사이언스 바로가기" class="nav_1">Coffee Science</a>
+                        </li>
+                        <li><a href="Ramble.html" title="램블 바로가기" class="nav_2">Ramble</a>
+                        <li><a href="sitemap_index2.html" title="사이트맵 바로가기" class="nav_3">sitemap</a>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+        <!--h_container-->
+    </header>
+
+
+
+
+
+
+    <div class="wrap">
+
+        <div class="section">
+
+            <div class="container">
+
+                <div> <img src="/image/coffee science/a.jpg"></div>
+
+                <div> <img src="/image/coffee science/b.jpg" alt=""></div>
+
+
+
+                <div class="a"> <img src="/image/coffee science/c.jpg" alt=""></div>
+
+
+
+
+                <div class="vid">
+
+                    <iframe
+                        src="https://player.vimeo.com/video/790600411?muted=1&loop=1&autoplay=1&autopause=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        width="4096" height="2160" frameborder="0" allow="autoplay; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+
+            </div>
+            <div class="go_ux_btn">
+                <div class="go_ux_btn_container ">
+                    <a href="ramble.html" class="go_ux_btn_position">
+
+
+
+                        <p class="go_ux_btn_text_1 ">
+                            👉 4.아웃도어 브랜딩 램블로 이동 👉
+                        </p>
+
+
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <a href="#" class="top"></a>
+
+
+
+</body>
+
+
+</html>
